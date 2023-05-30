@@ -101,8 +101,7 @@
 .todo__info {
   display: flex;
   align-items: center;
-  word-wrap: break-word;
-  word-break: break-all;
+  overflow-wrap: anywhere;
   flex: 0.9;
   cursor: pointer;
 }

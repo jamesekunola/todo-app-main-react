@@ -24,7 +24,7 @@ const Todo = React.memo(
         setTodoList((prevTodoList) =>
           prevTodoList.filter((todo) => todo.id !== id)
         );
-      }, 500);
+      }, 400);
     };
 
     // function to toggle todos radio btn
