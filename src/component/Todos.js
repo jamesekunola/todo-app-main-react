@@ -97,6 +97,8 @@ const Todos = memo(({ todoList, setTodoList }) => {
           ))}
         </div>
       )}
+
+      <p className="notice">Drag and drop to re-order list</p>
     </div>
   );
 });

@@ -178,6 +178,12 @@
   color: var(--Bright-Blue);
 }
 
+.notice {
+  text-align: center;
+  color: var(--Very-Dark-Grayish-Blue);
+  margin-top: 2rem;
+}
+
 @media screen and (min-width: 50rem) {
   .todo,
   .todos__item__box {
